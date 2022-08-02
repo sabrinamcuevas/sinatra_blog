@@ -1,0 +1,10 @@
+image: 'atlassian/default-image:2'
+pipelines:
+  default:
+    - step:
+        script:
+          - git remote add github ${GH_REPO}
+          - git push github ${BITBUCKET_BRANCH}
+
+          
+          

@@ -1,0 +1,44 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://localhost:3001/core/users/21
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Appauthorization:
+      - eyJhbGciOiJIUzI1NiJ9.eyJhcHBsaWNhdGlvbl9uYW1lIjoiY29tbXVuaXR5LXNzY29vbCIsImV4cCI6MTY0MDQ2MjgxNH0.znSQmVmVGN_r-y9te8ht8CTc9TTZQrxukuUQGStk6EE
+      User-Agent:
+      - Faraday v1.7.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Frame-Options:
+      - ALLOWALL
+      Content-Type:
+      - application/vnd.api+json; charset=utf-8
+      Etag:
+      - W/"fe5b15af8a9b24bfb579aeb340d955b8"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - fadaeac7-8093-4251-b897-864846b19e91
+      X-Runtime:
+      - '0.048968'
+      Vary:
+      - Origin
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":"21","type":"user","attributes":{"email":"admin@sesocio.com","address":"25046
+        Beatty Square","provider":null,"uid":null,"city":"West Bertie","state":"Wyoming","country":"AR","phone":"15347801","document":"96644690","firstname":"Wendie","lastname":"Koss","admin":false,"gender":"male","cuit":"20966446901","role":"superadmin","birthdate":null,"suspect_level":null,"alias":null,"display_currency":null,"allowed_to_log_in":true,"is_valid":true,"pwa_active":false,"mercado_pago_customer_id":null,"last_new_saw":null,"sign_up_date":null,"type_document":null,"street":null,"street_number":null,"street_floor":null,"street_floor_apartment":null,"department":null,"postal_code":null,"address_location":null,"confirmed_at":null,"phone_verification_step":null,"banned_type":[],"user_referrer_id":null,"created_at":"2021-11-28T01:13:31.688Z","updated_at":"2021-11-28T01:13:31.942Z","first_investment_date":null,"politically_exposed":false,"facta":false,"card_company_id":null,"all_documents_approved":false,"has_deposits":false,"user_coupons":[],"argentinian":true,"sesocio_user":true,"total_deposit":0,"total_available":"0"}}}'
+  recorded_at: Sat, 25 Dec 2021 19:36:54 GMT
+recorded_with: VCR 6.0.0

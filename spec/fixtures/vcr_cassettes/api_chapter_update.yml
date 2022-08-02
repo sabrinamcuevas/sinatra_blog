@@ -1,0 +1,729 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://localhost:3001/core/users/21
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Appauthorization:
+      - eyJhbGciOiJIUzI1NiJ9.eyJhcHBsaWNhdGlvbl9uYW1lIjoiY29tbXVuaXR5LXNzY29vbCIsImV4cCI6MTY0MzA1MDk2OX0.ZFUojNzaTt0XJN8sEnw-wX-H25aE3Vvux8i2-G49XXE
+      User-Agent:
+      - Faraday v1.7.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Frame-Options:
+      - ALLOWALL
+      Content-Type:
+      - application/vnd.api+json; charset=utf-8
+      Etag:
+      - W/"a44a78419e202aa157dff520528819db"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 8132b189-6a86-4472-b020-045e60230608
+      X-Runtime:
+      - '2.070665'
+      Vary:
+      - Origin
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJkYXRhIjp7ImlkIjoiMjEiLCJ0eXBlIjoidXNlciIsImF0dHJpYnV0ZXMiOnsiZW1haWwiOiIyMUBkZXYtZW1haWwuY29tIiwiYWRkcmVzcyI6IkZjbyBNdcOxb3ogMzM2OCIsInByb3ZpZGVyIjpudWxsLCJ1aWQiOm51bGwsImNpdHkiOiJNb250ZXZpZGVvIiwic3RhdGUiOiJNb250ZXZpZGVvIiwiY291bnRyeSI6IlVZIiwicGhvbmUiOiIrNTk4OTkzOTg4MDgiLCJkb2N1bWVudCI6IjM1NDg5NjY1IiwiZmlyc3RuYW1lIjoiQWxlamFuZHJvIiwibGFzdG5hbWUiOiJNb3LDs24iLCJhZG1pbiI6ZmFsc2UsImdlbmRlciI6bnVsbCwiY3VpdCI6bnVsbCwicm9sZSI6ImJhc2ljIiwiYmlydGhkYXRlIjpudWxsLCJzdXNwZWN0X2xldmVsIjoibm9fc3VzcGVjdCIsImFsaWFzIjoiYWxlamFuZHJvIiwiZGlzcGxheV9jdXJyZW5jeSI6IlVTRCIsImFsbG93ZWRfdG9fbG9nX2luIjp0cnVlLCJpc192YWxpZCI6ZmFsc2UsInB3YV9hY3RpdmUiOnRydWUsIm1lcmNhZG9fcGFnb19jdXN0b21lcl9pZCI6bnVsbCwibGFzdF9uZXdfc2F3IjpudWxsLCJzaWduX3VwX2RhdGUiOm51bGwsInR5cGVfZG9jdW1lbnQiOm51bGwsInN0cmVldCI6bnVsbCwic3RyZWV0X251bWJlciI6bnVsbCwic3RyZWV0X2Zsb29yIjpudWxsLCJzdHJlZXRfZmxvb3JfYXBhcnRtZW50IjpudWxsLCJkZXBhcnRtZW50IjpudWxsLCJwb3N0YWxfY29kZSI6bnVsbCwiYWRkcmVzc19sb2NhdGlvbiI6bnVsbCwiY29uZmlybWVkX2F0IjoiMjAxOC0wNC0yNFQxMDoyODoyMC44NjZaIiwicGhvbmVfdmVyaWZpY2F0aW9uX3N0ZXAiOm51bGwsImJhbm5lZF90eXBlIjpbXSwidXNlcl9yZWZlcnJlcl9pZCI6bnVsbCwiY3JlYXRlZF9hdCI6IjIwMTYtMDUtMDRUMDM6MjQ6MTUuOTE3WiIsInVwZGF0ZWRfYXQiOiIyMDIwLTA5LTE0VDE5OjIwOjQxLjE3NVoiLCJmaXJzdF9pbnZlc3RtZW50X2RhdGUiOm51bGwsInBvbGl0aWNhbGx5X2V4cG9zZWQiOmZhbHNlLCJmYWN0YSI6ZmFsc2UsImNhcmRfY29tcGFueV9pZCI6bnVsbCwiY2FzaF9hbW91bnQiOiIwLjAiLCJjdXJyZW5jeSI6IlVTRCIsImNvbW1pdHRlZF9hbW91bnQiOiIwLjAiLCJhbGxfZG9jdW1lbnRzX2FwcHJvdmVkIjpmYWxzZSwiaGFzX2RlcG9zaXRzIjpmYWxzZSwidXNlcl9jb3Vwb25zIjpbXSwiYXJnZW50aW5pYW4iOmZhbHNlLCJzZXNvY2lvX3VzZXIiOmZhbHNlLCJ0b3RhbF9kZXBvc2l0IjowLCJ0b3RhbF9hdmFpbGFibGUiOiIwIn19fQ==
+  recorded_at: Mon, 24 Jan 2022 18:32:51 GMT
+- request:
+    method: put
+    uri: https://sesocio.s3.amazonaws.com/uploads/tmp/1643049171-857201467781506-0004-4530/image20220124-124623-va4kqk.png
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - fog-core/2.2.4
+      Content-Type:
+      - image/png
+      X-Amz-Acl:
+      - private
+      Cache-Control:
+      - public, max-age=31536000
+      X-Amz-Date:
+      - 20220124T183251Z
+      X-Amz-Content-Sha256:
+      - STREAMING-AWS4-HMAC-SHA256-PAYLOAD
+      X-Amz-Decoded-Content-Length:
+      - '25066'
+      Authorization:
+      - AWS4-HMAC-SHA256 Credential=AKIAINIFARMWB4Q5QYRQ/20220124/us-east-1/s3/aws4_request,
+        SignedHeaders=cache-control;content-type;host;x-amz-acl;x-amz-content-sha256;x-amz-date;x-amz-decoded-content-length,
+        Signature=c243dfcb72794a2f854a4e645d6b53672e681acd51240674c20ffb74216d1fcf
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Amz-Id-2:
+      - Q8irWG/1x4LjdrOiZVaUqP9flh/T99lWGyItRMv1F+9OwzuocusGpbcaQG6EB2P6/0e7GtLtnmM=
+      X-Amz-Request-Id:
+      - MEBYG44YW0NTGQWH
+      Date:
+      - Mon, 24 Jan 2022 18:32:53 GMT
+      X-Amz-Version-Id:
+      - 7VrvCwrJv_zh3TBNUxH_UABR9ZZZBPob
+      Etag:
+      - '"3e14e147f1feff92f13e1641a50a2be6"'
+      Server:
+      - AmazonS3
+      Content-Length:
+      - '0'
+    body:
+      encoding: ASCII-8BIT
+      string: ''
+  recorded_at: Mon, 24 Jan 2022 18:32:53 GMT
+- request:
+    method: put
+    uri: https://sesocio.s3.amazonaws.com/uploads/tmp/1643049171-857201467781506-0004-4530/thumb_image20220124-124623-va4kqk.png
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - fog-core/2.2.4
+      Content-Type:
+      - image/png
+      X-Amz-Acl:
+      - private
+      Cache-Control:
+      - public, max-age=31536000
+      X-Amz-Date:
+      - 20220124T183253Z
+      X-Amz-Content-Sha256:
+      - STREAMING-AWS4-HMAC-SHA256-PAYLOAD
+      X-Amz-Decoded-Content-Length:
+      - '5564'
+      Authorization:
+      - AWS4-HMAC-SHA256 Credential=AKIAINIFARMWB4Q5QYRQ/20220124/us-east-1/s3/aws4_request,
+        SignedHeaders=cache-control;content-type;host;x-amz-acl;x-amz-content-sha256;x-amz-date;x-amz-decoded-content-length,
+        Signature=31498de26a222021c928c775e4927ebade4cd228e3bc87d70376c3c9621e9c62
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Amz-Id-2:
+      - J4bOJCiAc5eEC28n17GnAVA5KyRt73Nmz+AN1ctFd9WSErSSGLYQq7dFPWHk2mEH8IMQN1ztdzA=
+      X-Amz-Request-Id:
+      - VETVA8DT7A7N0NQF
+      Date:
+      - Mon, 24 Jan 2022 18:32:54 GMT
+      X-Amz-Version-Id:
+      - WQ3927ZcsteNhWL.lIauUCbjqyarapGj
+      Etag:
+      - '"19b237d6a712ea4e1e3eef59c53256fa"'
+      Server:
+      - AmazonS3
+      Content-Length:
+      - '0'
+    body:
+      encoding: ASCII-8BIT
+      string: ''
+  recorded_at: Mon, 24 Jan 2022 18:32:54 GMT
+- request:
+    method: put
+    uri: https://sesocio.s3.amazonaws.com/uploads/tmp/1643049171-857201467781506-0004-4530/small_image20220124-124623-va4kqk.png
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - fog-core/2.2.4
+      Content-Type:
+      - image/png
+      X-Amz-Acl:
+      - private
+      Cache-Control:
+      - public, max-age=31536000
+      X-Amz-Date:
+      - 20220124T183254Z
+      X-Amz-Content-Sha256:
+      - STREAMING-AWS4-HMAC-SHA256-PAYLOAD
+      X-Amz-Decoded-Content-Length:
+      - '20108'
+      Authorization:
+      - AWS4-HMAC-SHA256 Credential=AKIAINIFARMWB4Q5QYRQ/20220124/us-east-1/s3/aws4_request,
+        SignedHeaders=cache-control;content-type;host;x-amz-acl;x-amz-content-sha256;x-amz-date;x-amz-decoded-content-length,
+        Signature=d06c0bcd96162672581ca8978db2574dabea896019b5b24bee14753feda2ca62
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Amz-Id-2:
+      - Qpp7Si8G8AlAzJXCm5JOyq1GaqIsiqpOkZXhx0IZlWQ97tfHLpYNWI5FZ70MlWEw+wm9gx8FjFg=
+      X-Amz-Request-Id:
+      - DQM7XZ9TJQBKFN3N
+      Date:
+      - Mon, 24 Jan 2022 18:32:56 GMT
+      X-Amz-Version-Id:
+      - vk0V1RNkZeqzz5tMnWpN.Y4XXpjTEpo8
+      Etag:
+      - '"1a214a390235a18a11bb052915a6581c"'
+      Server:
+      - AmazonS3
+      Content-Length:
+      - '0'
+    body:
+      encoding: ASCII-8BIT
+      string: ''
+  recorded_at: Mon, 24 Jan 2022 18:32:55 GMT
+- request:
+    method: put
+    uri: https://sesocio.s3.amazonaws.com/uploads/tmp/1643049171-857201467781506-0004-4530/medium_image20220124-124623-va4kqk.png
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - fog-core/2.2.4
+      Content-Type:
+      - image/png
+      X-Amz-Acl:
+      - private
+      Cache-Control:
+      - public, max-age=31536000
+      X-Amz-Date:
+      - 20220124T183255Z
+      X-Amz-Content-Sha256:
+      - STREAMING-AWS4-HMAC-SHA256-PAYLOAD
+      X-Amz-Decoded-Content-Length:
+      - '31587'
+      Authorization:
+      - AWS4-HMAC-SHA256 Credential=AKIAINIFARMWB4Q5QYRQ/20220124/us-east-1/s3/aws4_request,
+        SignedHeaders=cache-control;content-type;host;x-amz-acl;x-amz-content-sha256;x-amz-date;x-amz-decoded-content-length,
+        Signature=b4cca3f70e172a16bb56c443d6b077cb93f958a17f45ce3aff627f159fbb0859
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Amz-Id-2:
+      - 1eF/jvgzI/mZyTuJh0XT8l4ce3Gz4ofvNr6O2eOuU6wOqhDoZtSeUofzzER7zpmjTqnGBQEqvqo=
+      X-Amz-Request-Id:
+      - E9K09XSX2BTJBJ4Y
+      Date:
+      - Mon, 24 Jan 2022 18:32:57 GMT
+      X-Amz-Version-Id:
+      - YewcP9piURdP9LiTAI4c2fs9zpywsvq4
+      Etag:
+      - '"be7f175ed71c9e46e8c9f01ef267b5a1"'
+      Server:
+      - AmazonS3
+      Content-Length:
+      - '0'
+    body:
+      encoding: ASCII-8BIT
+      string: ''
+  recorded_at: Mon, 24 Jan 2022 18:32:56 GMT
+- request:
+    method: put
+    uri: https://sesocio.s3.amazonaws.com/uploads/tmp/1643049171-857201467781506-0004-4530/large_image20220124-124623-va4kqk.png
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - fog-core/2.2.4
+      Content-Type:
+      - image/png
+      X-Amz-Acl:
+      - private
+      Cache-Control:
+      - public, max-age=31536000
+      X-Amz-Date:
+      - 20220124T183257Z
+      X-Amz-Content-Sha256:
+      - STREAMING-AWS4-HMAC-SHA256-PAYLOAD
+      X-Amz-Decoded-Content-Length:
+      - '90378'
+      Authorization:
+      - AWS4-HMAC-SHA256 Credential=AKIAINIFARMWB4Q5QYRQ/20220124/us-east-1/s3/aws4_request,
+        SignedHeaders=cache-control;content-type;host;x-amz-acl;x-amz-content-sha256;x-amz-date;x-amz-decoded-content-length,
+        Signature=5514127d03f723e77c796ba13d5268d33247c18d2eb35097553f9bfe88663870
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Amz-Id-2:
+      - DGZZemULGT850waxNl8a7j5KQV6hQ6balezyo7t7baRTm+xACCpi/hOOpqs6oBx+TuokCqBv79o=
+      X-Amz-Request-Id:
+      - G6D4E80P96134YZK
+      Date:
+      - Mon, 24 Jan 2022 18:32:58 GMT
+      X-Amz-Version-Id:
+      - FWUbN5XT5YVEtmlINFoKC2mpo6DYzQL6
+      Etag:
+      - '"ab069f1a511dc97e2c0a9f36667b7394"'
+      Server:
+      - AmazonS3
+      Content-Length:
+      - '0'
+    body:
+      encoding: ASCII-8BIT
+      string: ''
+  recorded_at: Mon, 24 Jan 2022 18:32:58 GMT
+- request:
+    method: put
+    uri: https://sesocio.s3.amazonaws.com/assets/admin/sscool/photos/image20220124-124623-va4kqk.png
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - fog-core/2.2.4
+      X-Amz-Copy-Source:
+      - "/sesocio/uploads/tmp/1643049171-857201467781506-0004-4530/image20220124-124623-va4kqk.png"
+      X-Amz-Acl:
+      - private
+      Content-Type:
+      - image/png
+      Cache-Control:
+      - public, max-age=31536000
+      X-Amz-Date:
+      - 20220124T183258Z
+      X-Amz-Content-Sha256:
+      - e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+      Authorization:
+      - AWS4-HMAC-SHA256 Credential=AKIAINIFARMWB4Q5QYRQ/20220124/us-east-1/s3/aws4_request,
+        SignedHeaders=cache_control;content-type;host;x-amz-acl;x-amz-content-sha256;x-amz-copy-source;x-amz-date,
+        Signature=99abcc675bc95cc0eaa56286d62b275da37584bf309b63d1a5aa2f0767a0f776
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Amz-Id-2:
+      - 68emwqyFSulA4x2udq/ySBlXhSvswtU4gtQICMHadtVjXCRylDrEXxa4oRaJH/4rmgz5yplIUSI=
+      X-Amz-Request-Id:
+      - K9YS7MQF9H4P528B
+      Date:
+      - Mon, 24 Jan 2022 18:33:00 GMT
+      X-Amz-Copy-Source-Version-Id:
+      - 7VrvCwrJv_zh3TBNUxH_UABR9ZZZBPob
+      X-Amz-Version-Id:
+      - L4Efma4ul3XlG_M0rlItfHjA9U.54evz
+      Content-Type:
+      - application/xml
+      Server:
+      - AmazonS3
+      Content-Length:
+      - '234'
+    body:
+      encoding: ASCII-8BIT
+      string: |-
+        <?xml version="1.0" encoding="UTF-8"?>
+        <CopyObjectResult xmlns="http://s3.amazonaws.com/doc/2006-03-01/"><LastModified>2022-01-24T18:33:00.000Z</LastModified><ETag>&quot;3e14e147f1feff92f13e1641a50a2be6&quot;</ETag></CopyObjectResult>
+  recorded_at: Mon, 24 Jan 2022 18:32:59 GMT
+- request:
+    method: delete
+    uri: https://sesocio.s3.amazonaws.com/uploads/tmp/1643049171-857201467781506-0004-4530/image20220124-124623-va4kqk.png
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - fog-core/2.2.4
+      X-Amz-Date:
+      - 20220124T183259Z
+      X-Amz-Content-Sha256:
+      - e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+      Authorization:
+      - AWS4-HMAC-SHA256 Credential=AKIAINIFARMWB4Q5QYRQ/20220124/us-east-1/s3/aws4_request,
+        SignedHeaders=host;x-amz-content-sha256;x-amz-date, Signature=e817b72a826672d24407e9999f62fc5afa7664c688f2630d65e76eac5d6e8d22
+  response:
+    status:
+      code: 204
+      message: No Content
+    headers:
+      X-Amz-Id-2:
+      - h1KXmvOC0DKBb5ObG2Gn7uXml4prw5fiHj/17rULAP7vaEQd5q8YuuKk1l7HV2Axl/YrISO8fHk=
+      X-Amz-Request-Id:
+      - N1MXE2CTW9FFCRM4
+      Date:
+      - Mon, 24 Jan 2022 18:33:01 GMT
+      X-Amz-Version-Id:
+      - 7w3rfa313QaDogjZf9Qq5iS7YGqRL1Zz
+      X-Amz-Delete-Marker:
+      - 'true'
+      Server:
+      - AmazonS3
+    body:
+      encoding: ASCII-8BIT
+      string: ''
+  recorded_at: Mon, 24 Jan 2022 18:33:00 GMT
+- request:
+    method: put
+    uri: https://sesocio.s3.amazonaws.com/assets/admin/sscool/photos/thumb_image20220124-124623-va4kqk.png
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - fog-core/2.2.4
+      X-Amz-Copy-Source:
+      - "/sesocio/uploads/tmp/1643049171-857201467781506-0004-4530/thumb_image20220124-124623-va4kqk.png"
+      X-Amz-Acl:
+      - private
+      Content-Type:
+      - image/png
+      Cache-Control:
+      - public, max-age=31536000
+      X-Amz-Date:
+      - 20220124T183300Z
+      X-Amz-Content-Sha256:
+      - e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+      Authorization:
+      - AWS4-HMAC-SHA256 Credential=AKIAINIFARMWB4Q5QYRQ/20220124/us-east-1/s3/aws4_request,
+        SignedHeaders=cache_control;content-type;host;x-amz-acl;x-amz-content-sha256;x-amz-copy-source;x-amz-date,
+        Signature=8d6e7c9ede361b827d69e4ff0fbb249f7716f911465de44bf1526107c0eeb5b3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Amz-Id-2:
+      - fv8LJSpssB+LnrR56HgJLfNKvkAMhllS5ySxQO5l7Th1M8sZ2QipGV1PlCAlxFtu6h6vti6TnEM=
+      X-Amz-Request-Id:
+      - N1MHGACFYAN6XNJJ
+      Date:
+      - Mon, 24 Jan 2022 18:33:01 GMT
+      X-Amz-Copy-Source-Version-Id:
+      - WQ3927ZcsteNhWL.lIauUCbjqyarapGj
+      X-Amz-Version-Id:
+      - 1PrvwkiSol59JRz8XmXsueRLbYvT4FKN
+      Content-Type:
+      - application/xml
+      Server:
+      - AmazonS3
+      Content-Length:
+      - '234'
+    body:
+      encoding: ASCII-8BIT
+      string: |-
+        <?xml version="1.0" encoding="UTF-8"?>
+        <CopyObjectResult xmlns="http://s3.amazonaws.com/doc/2006-03-01/"><LastModified>2022-01-24T18:33:01.000Z</LastModified><ETag>&quot;19b237d6a712ea4e1e3eef59c53256fa&quot;</ETag></CopyObjectResult>
+  recorded_at: Mon, 24 Jan 2022 18:33:00 GMT
+- request:
+    method: delete
+    uri: https://sesocio.s3.amazonaws.com/uploads/tmp/1643049171-857201467781506-0004-4530/thumb_image20220124-124623-va4kqk.png
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - fog-core/2.2.4
+      X-Amz-Date:
+      - 20220124T183300Z
+      X-Amz-Content-Sha256:
+      - e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+      Authorization:
+      - AWS4-HMAC-SHA256 Credential=AKIAINIFARMWB4Q5QYRQ/20220124/us-east-1/s3/aws4_request,
+        SignedHeaders=host;x-amz-content-sha256;x-amz-date, Signature=da88f062e8babe29e8740642facac98debe4008107da3007aa950eadaf83bf00
+  response:
+    status:
+      code: 204
+      message: No Content
+    headers:
+      X-Amz-Id-2:
+      - 0VgINMqJbSpb9spldsqIfl9ldxboMJ7470bQqv6L/1scsvcdynpzokj5zyJQBVhi4/5N0o+vTE0=
+      X-Amz-Request-Id:
+      - SGJHEAVA7DQKKN27
+      Date:
+      - Mon, 24 Jan 2022 18:33:02 GMT
+      X-Amz-Version-Id:
+      - J.3mq_4ac2krqxZNGX98GT1AK4JdA5.g
+      X-Amz-Delete-Marker:
+      - 'true'
+      Server:
+      - AmazonS3
+    body:
+      encoding: ASCII-8BIT
+      string: ''
+  recorded_at: Mon, 24 Jan 2022 18:33:01 GMT
+- request:
+    method: put
+    uri: https://sesocio.s3.amazonaws.com/assets/admin/sscool/photos/small_image20220124-124623-va4kqk.png
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - fog-core/2.2.4
+      X-Amz-Copy-Source:
+      - "/sesocio/uploads/tmp/1643049171-857201467781506-0004-4530/small_image20220124-124623-va4kqk.png"
+      X-Amz-Acl:
+      - private
+      Content-Type:
+      - image/png
+      Cache-Control:
+      - public, max-age=31536000
+      X-Amz-Date:
+      - 20220124T183301Z
+      X-Amz-Content-Sha256:
+      - e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+      Authorization:
+      - AWS4-HMAC-SHA256 Credential=AKIAINIFARMWB4Q5QYRQ/20220124/us-east-1/s3/aws4_request,
+        SignedHeaders=cache_control;content-type;host;x-amz-acl;x-amz-content-sha256;x-amz-copy-source;x-amz-date,
+        Signature=e67a1b6f8b9fa852c592d05398a7da9cd3461b04c75e644ba094f85f3258f13a
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Amz-Id-2:
+      - KE3tDeeyqud8repcjzpEPCASdaj+T5J8ry6gb/8C9fhBgBEGg8IjMbXXU6NmhRX6FFsH6t7UQpE=
+      X-Amz-Request-Id:
+      - Y2T6N67JE7ZMJ066
+      Date:
+      - Mon, 24 Jan 2022 18:33:03 GMT
+      X-Amz-Copy-Source-Version-Id:
+      - vk0V1RNkZeqzz5tMnWpN.Y4XXpjTEpo8
+      X-Amz-Version-Id:
+      - GxFUhN451odfbxopTp3Qm190sCnpM1ur
+      Content-Type:
+      - application/xml
+      Server:
+      - AmazonS3
+      Content-Length:
+      - '234'
+    body:
+      encoding: ASCII-8BIT
+      string: |-
+        <?xml version="1.0" encoding="UTF-8"?>
+        <CopyObjectResult xmlns="http://s3.amazonaws.com/doc/2006-03-01/"><LastModified>2022-01-24T18:33:03.000Z</LastModified><ETag>&quot;1a214a390235a18a11bb052915a6581c&quot;</ETag></CopyObjectResult>
+  recorded_at: Mon, 24 Jan 2022 18:33:02 GMT
+- request:
+    method: delete
+    uri: https://sesocio.s3.amazonaws.com/uploads/tmp/1643049171-857201467781506-0004-4530/small_image20220124-124623-va4kqk.png
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - fog-core/2.2.4
+      X-Amz-Date:
+      - 20220124T183302Z
+      X-Amz-Content-Sha256:
+      - e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+      Authorization:
+      - AWS4-HMAC-SHA256 Credential=AKIAINIFARMWB4Q5QYRQ/20220124/us-east-1/s3/aws4_request,
+        SignedHeaders=host;x-amz-content-sha256;x-amz-date, Signature=20a3d27bacf3929c3f5d9854c069252b81032a631e9e54fc7f0e96a83cf7f4b4
+  response:
+    status:
+      code: 204
+      message: No Content
+    headers:
+      X-Amz-Id-2:
+      - nuR09QIzuVC2KBaqSNDvJDGyvnIWoKcIn62knvvQEI8Knsdri2r3HCF7qGj5LczBnP5F/+LE2Go=
+      X-Amz-Request-Id:
+      - 1XJ4P359QJCT1ZKM
+      Date:
+      - Mon, 24 Jan 2022 18:33:04 GMT
+      X-Amz-Version-Id:
+      - S7mZC.YM3tlvkCisJ09BwK1ru_4vJl49
+      X-Amz-Delete-Marker:
+      - 'true'
+      Server:
+      - AmazonS3
+    body:
+      encoding: ASCII-8BIT
+      string: ''
+  recorded_at: Mon, 24 Jan 2022 18:33:03 GMT
+- request:
+    method: put
+    uri: https://sesocio.s3.amazonaws.com/assets/admin/sscool/photos/medium_image20220124-124623-va4kqk.png
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - fog-core/2.2.4
+      X-Amz-Copy-Source:
+      - "/sesocio/uploads/tmp/1643049171-857201467781506-0004-4530/medium_image20220124-124623-va4kqk.png"
+      X-Amz-Acl:
+      - private
+      Content-Type:
+      - image/png
+      Cache-Control:
+      - public, max-age=31536000
+      X-Amz-Date:
+      - 20220124T183303Z
+      X-Amz-Content-Sha256:
+      - e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+      Authorization:
+      - AWS4-HMAC-SHA256 Credential=AKIAINIFARMWB4Q5QYRQ/20220124/us-east-1/s3/aws4_request,
+        SignedHeaders=cache_control;content-type;host;x-amz-acl;x-amz-content-sha256;x-amz-copy-source;x-amz-date,
+        Signature=9bcc414e6c45ccf5744dbf2710fa000ff156b8f01db4aad2c6e910709841c9bc
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Amz-Id-2:
+      - 0GnRCVNkB9NdA4dh5Bb1OdgDvpfhItQo9l0xRLaY/3pzQdpk83lA05PzRmW/FbY3WU3kOhSrFts=
+      X-Amz-Request-Id:
+      - QP7GX1HQJ0NZNSEY
+      Date:
+      - Mon, 24 Jan 2022 18:33:05 GMT
+      X-Amz-Copy-Source-Version-Id:
+      - YewcP9piURdP9LiTAI4c2fs9zpywsvq4
+      X-Amz-Version-Id:
+      - ARtTRd4EFIklayiBGo5rKwtMhhlnUufZ
+      Content-Type:
+      - application/xml
+      Server:
+      - AmazonS3
+      Content-Length:
+      - '234'
+    body:
+      encoding: ASCII-8BIT
+      string: |-
+        <?xml version="1.0" encoding="UTF-8"?>
+        <CopyObjectResult xmlns="http://s3.amazonaws.com/doc/2006-03-01/"><LastModified>2022-01-24T18:33:05.000Z</LastModified><ETag>&quot;be7f175ed71c9e46e8c9f01ef267b5a1&quot;</ETag></CopyObjectResult>
+  recorded_at: Mon, 24 Jan 2022 18:33:04 GMT
+- request:
+    method: delete
+    uri: https://sesocio.s3.amazonaws.com/uploads/tmp/1643049171-857201467781506-0004-4530/medium_image20220124-124623-va4kqk.png
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - fog-core/2.2.4
+      X-Amz-Date:
+      - 20220124T183304Z
+      X-Amz-Content-Sha256:
+      - e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+      Authorization:
+      - AWS4-HMAC-SHA256 Credential=AKIAINIFARMWB4Q5QYRQ/20220124/us-east-1/s3/aws4_request,
+        SignedHeaders=host;x-amz-content-sha256;x-amz-date, Signature=57739775311e7db65cc382cab646bdd942c4f9632cf002a5117e95fb32630bd4
+  response:
+    status:
+      code: 204
+      message: No Content
+    headers:
+      X-Amz-Id-2:
+      - c/IC9oFfBWXOeVEslrK75RmQ2TerWCbVSnq6BIOnsDMYF1zslSgei/3ZsvyaLhhzoXaF/8zjOtA=
+      X-Amz-Request-Id:
+      - QP7MKF35EKBDQ1NN
+      Date:
+      - Mon, 24 Jan 2022 18:33:05 GMT
+      X-Amz-Version-Id:
+      - JC2d_xjrdWy5NJwsMDlQZ568aIYjjw0G
+      X-Amz-Delete-Marker:
+      - 'true'
+      Server:
+      - AmazonS3
+    body:
+      encoding: ASCII-8BIT
+      string: ''
+  recorded_at: Mon, 24 Jan 2022 18:33:05 GMT
+- request:
+    method: put
+    uri: https://sesocio.s3.amazonaws.com/assets/admin/sscool/photos/large_image20220124-124623-va4kqk.png
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - fog-core/2.2.4
+      X-Amz-Copy-Source:
+      - "/sesocio/uploads/tmp/1643049171-857201467781506-0004-4530/large_image20220124-124623-va4kqk.png"
+      X-Amz-Acl:
+      - private
+      Content-Type:
+      - image/png
+      Cache-Control:
+      - public, max-age=31536000
+      X-Amz-Date:
+      - 20220124T183305Z
+      X-Amz-Content-Sha256:
+      - e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+      Authorization:
+      - AWS4-HMAC-SHA256 Credential=AKIAINIFARMWB4Q5QYRQ/20220124/us-east-1/s3/aws4_request,
+        SignedHeaders=cache_control;content-type;host;x-amz-acl;x-amz-content-sha256;x-amz-copy-source;x-amz-date,
+        Signature=0c39f36437c053416e4196db4010c9a8098dc3861200b236647e120cbb3216d9
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Amz-Id-2:
+      - 7+CtkCyb63/gt6zxpZUnbB6X0OMof9P3I9ieiZZL/Rd+ihJxT3prYLYvgf5WDJcUtlZFXU/Jqko=
+      X-Amz-Request-Id:
+      - PG8R6YA2F5FSMBQ2
+      Date:
+      - Mon, 24 Jan 2022 18:33:06 GMT
+      X-Amz-Copy-Source-Version-Id:
+      - FWUbN5XT5YVEtmlINFoKC2mpo6DYzQL6
+      X-Amz-Version-Id:
+      - lqg7Dh_eggOYABpc1gKEhA0iCxdku8sD
+      Content-Type:
+      - application/xml
+      Server:
+      - AmazonS3
+      Content-Length:
+      - '234'
+    body:
+      encoding: ASCII-8BIT
+      string: |-
+        <?xml version="1.0" encoding="UTF-8"?>
+        <CopyObjectResult xmlns="http://s3.amazonaws.com/doc/2006-03-01/"><LastModified>2022-01-24T18:33:06.000Z</LastModified><ETag>&quot;ab069f1a511dc97e2c0a9f36667b7394&quot;</ETag></CopyObjectResult>
+  recorded_at: Mon, 24 Jan 2022 18:33:05 GMT
+- request:
+    method: delete
+    uri: https://sesocio.s3.amazonaws.com/uploads/tmp/1643049171-857201467781506-0004-4530/large_image20220124-124623-va4kqk.png
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - fog-core/2.2.4
+      X-Amz-Date:
+      - 20220124T183305Z
+      X-Amz-Content-Sha256:
+      - e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+      Authorization:
+      - AWS4-HMAC-SHA256 Credential=AKIAINIFARMWB4Q5QYRQ/20220124/us-east-1/s3/aws4_request,
+        SignedHeaders=host;x-amz-content-sha256;x-amz-date, Signature=c1e16a4ae572bd310e3f4c68417c53a9e7ddf0869c66713407cbe83c0cc16561
+  response:
+    status:
+      code: 204
+      message: No Content
+    headers:
+      X-Amz-Id-2:
+      - HcIHsrIkJSutfw8VHSBp4wZOUUARin6FzwRBZh6vJeWuWm1MG8qOi35vOKYHyi4wSVsMMUEe99U=
+      X-Amz-Request-Id:
+      - JZZ2BGDVJDQ1DNE1
+      Date:
+      - Mon, 24 Jan 2022 18:33:07 GMT
+      X-Amz-Version-Id:
+      - aK.FxJUucfhRHbKmW1sTnzEBKnBSyTRV
+      X-Amz-Delete-Marker:
+      - 'true'
+      Server:
+      - AmazonS3
+    body:
+      encoding: ASCII-8BIT
+      string: ''
+  recorded_at: Mon, 24 Jan 2022 18:33:06 GMT
+recorded_with: VCR 6.0.0

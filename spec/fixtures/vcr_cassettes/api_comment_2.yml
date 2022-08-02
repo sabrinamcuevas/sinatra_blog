@@ -1,0 +1,45 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://localhost:3001/core/users/152036
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Appauthorization:
+      - eyJhbGciOiJIUzI1NiJ9.eyJhcHBsaWNhdGlvbl9uYW1lIjoiY29tbXVuaXR5LXNzY29vbCIsImV4cCI6MTYzODU0NzUyNX0.Jw1O-a6rivh9nERD_mtbxzPAbMhZYAPnjsT5TbKMzrw
+      User-Agent:
+      - Faraday v1.7.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Frame-Options:
+      - ALLOWALL
+      Content-Type:
+      - application/vnd.api+json; charset=utf-8
+      Etag:
+      - W/"7bfc2fbb97648ce8cb034d2f25668325"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 4eacf3a9-2ccb-44e2-8d29-27e5d8bc30c7
+      X-Runtime:
+      - '2.071465'
+      Vary:
+      - Origin
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":"152036","type":"user","attributes":{"email":"ivana.moyano@sesocio.com","address":"Paraguay
+        277 0 0","provider":"google_oauth2","uid":"112152802614353997320","city":"Trelew","state":"U","country":"AR","phone":"+54
+        280 441-9090","document":"33345245","firstname":"Ivana","lastname":"Moyano","admin":true,"gender":"female","cuit":"27333452451","role":"superadmin","birthdate":"1987-11-13T00:00:00.000Z","suspect_level":"no_suspect","alias":"ivana.moyano","display_currency":"ARS","allowed_to_log_in":true,"is_valid":true,"pwa_active":true,"mercado_pago_customer_id":null,"last_new_saw":"2021-12-01T18:03:44.332Z","sign_up_date":null,"type_document":null,"street":"Paraguay","street_number":"277","street_floor":"0","street_floor_apartment":"0","department":null,"postal_code":"9100","address_location":null,"confirmed_at":"2021-02-02T18:00:27.802Z","phone_verification_step":"phone_verified","banned_type":[],"user_referrer_id":null,"created_at":"2020-06-22T14:08:05.980Z","updated_at":"2021-12-01T18:03:44.352Z","first_investment_date":"2020-09-24T12:47:43.170Z","politically_exposed":false,"facta":false,"card_company_id":null,"all_documents_approved":true,"has_deposits":true,"user_coupons":[{"id":994,"user_id":152036,"coupon_id":259,"action_id":null,"status":"expired","confirmed_date":null,"deleted_at":null,"created_at":"2021-02-03T19:30:13.125Z","updated_at":"2021-02-03T19:30:13.125Z","expired_date":null}],"argentinian":true,"sesocio_user":true,"total_deposit":0,"total_available":"0"}}}'
+  recorded_at: Fri, 03 Dec 2021 15:35:27 GMT
+recorded_with: VCR 6.0.0
